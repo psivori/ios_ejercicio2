@@ -49,7 +49,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="1000" text="Walter White" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZl-Fo-pCI">
                                 <rect key="frame" x="256" y="275" width="88" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-profile" translatesAutoresizingMaskIntoConstraints="NO" id="VT0-kF-F5C">
@@ -58,6 +58,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5a-PA-MHJ">
                                 <rect key="frame" x="524" y="28" width="48" height="48"/>
                                 <state key="normal" image="icn-switch"/>
+                                <connections>
+                                    <action selector="switch:" destination="PiC-WV-lk0" eventType="touchUpInside" id="Y86-hK-gkh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -90,7 +93,10 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="image" destination="VT0-kF-F5C" id="aiY-A0-dIS"/>
+                        <outlet property="profileDescription" destination="xyi-lP-B3t" id="lg0-b4-UYN"/>
                         <outlet property="profileImageView" destination="VT0-kF-F5C" id="XOZ-ZB-GsS"/>
+                        <outlet property="profileName" destination="cZl-Fo-pCI" id="GUI-Q5-PTr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="56C-hu-6iD" sceneMemberID="firstResponder"/>
