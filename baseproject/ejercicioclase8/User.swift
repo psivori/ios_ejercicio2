@@ -7,3 +7,17 @@
 //
 
 import Foundation
+
+class User {
+    var name : String
+    var image : String
+    var description : String
+    init(d : [String : String]) {
+        self.name = d["name"]!
+        self.image = d["image"]!
+        self.description = d["description"]!
+    }
+}
+
+
+

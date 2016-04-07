@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83F2AAD31CB5EC8A00393B1F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F2AAD21CB5EC8A00393B1F /* User.swift */; settings = {ASSET_TAGS = (); }; };
 		F121D0B91CAF1B2600B26657 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F121D0B81CAF1B2600B26657 /* AppDelegate.swift */; };
 		F121D0BE1CAF1B2600B26657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F121D0BC1CAF1B2600B26657 /* Main.storyboard */; };
 		F121D0C01CAF1B2600B26657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F121D0BF1CAF1B2600B26657 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		83F2AAD21CB5EC8A00393B1F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ejercicioclase8/User.swift; sourceTree = SOURCE_ROOT; };
 		F121D0B51CAF1B2600B26657 /* EjercicioClase8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EjercicioClase8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F121D0B81CAF1B2600B26657 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F121D0BD1CAF1B2600B26657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				F121D0CA1CAF1BDD00B26657 /* Utils */,
 				F121D0B81CAF1B2600B26657 /* AppDelegate.swift */,
 				F121D0CD1CAF1C0600B26657 /* ViewController.swift */,
+				83F2AAD21CB5EC8A00393B1F /* User.swift */,
 				F121D0BC1CAF1B2600B26657 /* Main.storyboard */,
 				F121D0BF1CAF1B2600B26657 /* Assets.xcassets */,
 				F121D0C11CAF1B2600B26657 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83F2AAD31CB5EC8A00393B1F /* User.swift in Sources */,
 				F121D0CE1CAF1C0600B26657 /* ViewController.swift in Sources */,
 				F121D0CC1CAF1BED00B26657 /* Int+Random.swift in Sources */,
 				F121D0B91CAF1B2600B26657 /* AppDelegate.swift in Sources */,

@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var profileImageView: UIImageView!
 
+    let users = [["name":"Walter White","image":"img-profile","description": "Walt es un padre de familia de 50 años, profesor de química en un instituto de Albuquerque, Nuevo México. Un día, Walt es diagnosticado con un cáncer de pulmón inoperable."]]
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -36,7 +37,10 @@ class ViewController: UIViewController {
         return .LightContent
     }
     
+    func createUserFromDictionary{
+        
+    }
     
-    
+        
 }
 
