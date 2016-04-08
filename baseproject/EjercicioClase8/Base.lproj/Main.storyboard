@@ -93,7 +93,6 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="image" destination="VT0-kF-F5C" id="aiY-A0-dIS"/>
                         <outlet property="profileDescription" destination="xyi-lP-B3t" id="lg0-b4-UYN"/>
                         <outlet property="profileImageView" destination="VT0-kF-F5C" id="XOZ-ZB-GsS"/>
                         <outlet property="profileName" destination="cZl-Fo-pCI" id="GUI-Q5-PTr"/>
