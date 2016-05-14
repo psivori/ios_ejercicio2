@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B9E077F082C8D9A5ED00B95 /* Pods_GpsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CDBDD4993F65D1C87F5A98 /* Pods_GpsUITests.framework */; };
+		8366FE281CE69C0800A54C52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8366FE271CE69C0800A54C52 /* AppDelegate.swift */; };
+		8366FE2A1CE69C0800A54C52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8366FE291CE69C0800A54C52 /* ViewController.swift */; };
+		8366FE2D1CE69C0800A54C52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8366FE2B1CE69C0800A54C52 /* Main.storyboard */; };
+		8366FE2F1CE69C0800A54C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8366FE2E1CE69C0800A54C52 /* Assets.xcassets */; };
+		8366FE321CE69C0800A54C52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8366FE301CE69C0800A54C52 /* LaunchScreen.storyboard */; };
+		8366FE3D1CE69C0800A54C52 /* GpsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8366FE3C1CE69C0800A54C52 /* GpsTests.swift */; };
+		8366FE481CE69C0800A54C52 /* GpsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8366FE471CE69C0800A54C52 /* GpsUITests.swift */; };
+		8CEAFED5D15EBDF1DBE44E5F /* Pods_Gps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AB9574496A482B6426E485 /* Pods_Gps.framework */; };
+		DE62EAB9587FF1A5465B8757 /* Pods_GpsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8CB5F38BA12B895F0E58F9 /* Pods_GpsTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8366FE391CE69C0800A54C52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8366FE1C1CE69C0800A54C52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8366FE231CE69C0800A54C52;
+			remoteInfo = Gps;
+		};
+		8366FE441CE69C0800A54C52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8366FE1C1CE69C0800A54C52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8366FE231CE69C0800A54C52;
+			remoteInfo = Gps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03874742D9FC73504499F33B /* Pods-Gps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gps.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gps/Pods-Gps.release.xcconfig"; sourceTree = "<group>"; };
+		07CDBDD4993F65D1C87F5A98 /* Pods_GpsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GpsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36A5F5D630152A55560C4D0C /* Pods-Gps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gps/Pods-Gps.debug.xcconfig"; sourceTree = "<group>"; };
+		439A10D09D5E17CE1962C9FA /* Pods-GpsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GpsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GpsUITests/Pods-GpsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		538B16566D4637C26A25CCC3 /* Pods-GpsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GpsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GpsTests/Pods-GpsTests.release.xcconfig"; sourceTree = "<group>"; };
+		62AB9574496A482B6426E485 /* Pods_Gps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8366FE241CE69C0800A54C52 /* Gps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8366FE271CE69C0800A54C52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8366FE291CE69C0800A54C52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8366FE2C1CE69C0800A54C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8366FE2E1CE69C0800A54C52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8366FE311CE69C0800A54C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8366FE331CE69C0800A54C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8366FE381CE69C0800A54C52 /* GpsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GpsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8366FE3C1CE69C0800A54C52 /* GpsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpsTests.swift; sourceTree = "<group>"; };
+		8366FE3E1CE69C0800A54C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8366FE431CE69C0800A54C52 /* GpsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GpsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8366FE471CE69C0800A54C52 /* GpsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpsUITests.swift; sourceTree = "<group>"; };
+		8366FE491CE69C0800A54C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB8E762C110C0753A7DF4B3 /* Pods-GpsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GpsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GpsTests/Pods-GpsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCE43A0FEE72F9D0E541AEAB /* Pods-GpsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GpsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GpsUITests/Pods-GpsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CF8CB5F38BA12B895F0E58F9 /* Pods_GpsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GpsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8366FE211CE69C0800A54C52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CEAFED5D15EBDF1DBE44E5F /* Pods_Gps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8366FE351CE69C0800A54C52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE62EAB9587FF1A5465B8757 /* Pods_GpsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8366FE401CE69C0800A54C52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9E077F082C8D9A5ED00B95 /* Pods_GpsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F8A355D04BF2B4E09B18392 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62AB9574496A482B6426E485 /* Pods_Gps.framework */,
+				CF8CB5F38BA12B895F0E58F9 /* Pods_GpsTests.framework */,
+				07CDBDD4993F65D1C87F5A98 /* Pods_GpsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8366FE1B1CE69C0800A54C52 = {
+			isa = PBXGroup;
+			children = (
+				8366FE261CE69C0800A54C52 /* Gps */,
+				8366FE3B1CE69C0800A54C52 /* GpsTests */,
+				8366FE461CE69C0800A54C52 /* GpsUITests */,
+				8366FE251CE69C0800A54C52 /* Products */,
+				837E0F75597540D4299044E3 /* Pods */,
+				3F8A355D04BF2B4E09B18392 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8366FE251CE69C0800A54C52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8366FE241CE69C0800A54C52 /* Gps.app */,
+				8366FE381CE69C0800A54C52 /* GpsTests.xctest */,
+				8366FE431CE69C0800A54C52 /* GpsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8366FE261CE69C0800A54C52 /* Gps */ = {
+			isa = PBXGroup;
+			children = (
+				8366FE271CE69C0800A54C52 /* AppDelegate.swift */,
+				8366FE291CE69C0800A54C52 /* ViewController.swift */,
+				8366FE2B1CE69C0800A54C52 /* Main.storyboard */,
+				8366FE2E1CE69C0800A54C52 /* Assets.xcassets */,
+				8366FE301CE69C0800A54C52 /* LaunchScreen.storyboard */,
+				8366FE331CE69C0800A54C52 /* Info.plist */,
+			);
+			path = Gps;
+			sourceTree = "<group>";
+		};
+		8366FE3B1CE69C0800A54C52 /* GpsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8366FE3C1CE69C0800A54C52 /* GpsTests.swift */,
+				8366FE3E1CE69C0800A54C52 /* Info.plist */,
+			);
+			path = GpsTests;
+			sourceTree = "<group>";
+		};
+		8366FE461CE69C0800A54C52 /* GpsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8366FE471CE69C0800A54C52 /* GpsUITests.swift */,
+				8366FE491CE69C0800A54C52 /* Info.plist */,
+			);
+			path = GpsUITests;
+			sourceTree = "<group>";
+		};
+		837E0F75597540D4299044E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36A5F5D630152A55560C4D0C /* Pods-Gps.debug.xcconfig */,
+				03874742D9FC73504499F33B /* Pods-Gps.release.xcconfig */,
+				CAB8E762C110C0753A7DF4B3 /* Pods-GpsTests.debug.xcconfig */,
+				538B16566D4637C26A25CCC3 /* Pods-GpsTests.release.xcconfig */,
+				439A10D09D5E17CE1962C9FA /* Pods-GpsUITests.debug.xcconfig */,
+				CCE43A0FEE72F9D0E541AEAB /* Pods-GpsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8366FE231CE69C0800A54C52 /* Gps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8366FE4C1CE69C0800A54C52 /* Build configuration list for PBXNativeTarget "Gps" */;
+			buildPhases = (
+				71E10E04AE1C411DEA1B6519 /* 📦 Check Pods Manifest.lock */,
+				8366FE201CE69C0800A54C52 /* Sources */,
+				8366FE211CE69C0800A54C52 /* Frameworks */,
+				8366FE221CE69C0800A54C52 /* Resources */,
+				4A60D0DD7D5034B25D3D8D26 /* 📦 Embed Pods Frameworks */,
+				E0D4BE97F313040332D8824E /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gps;
+			productName = Gps;
+			productReference = 8366FE241CE69C0800A54C52 /* Gps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8366FE371CE69C0800A54C52 /* GpsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8366FE4F1CE69C0800A54C52 /* Build configuration list for PBXNativeTarget "GpsTests" */;
+			buildPhases = (
+				632292E05F65FC771C7AFBD9 /* 📦 Check Pods Manifest.lock */,
+				8366FE341CE69C0800A54C52 /* Sources */,
+				8366FE351CE69C0800A54C52 /* Frameworks */,
+				8366FE361CE69C0800A54C52 /* Resources */,
+				A90C331BB32486BA39172119 /* 📦 Embed Pods Frameworks */,
+				6B285E90E30CDD8B992D7D11 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8366FE3A1CE69C0800A54C52 /* PBXTargetDependency */,
+			);
+			name = GpsTests;
+			productName = GpsTests;
+			productReference = 8366FE381CE69C0800A54C52 /* GpsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8366FE421CE69C0800A54C52 /* GpsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8366FE521CE69C0800A54C52 /* Build configuration list for PBXNativeTarget "GpsUITests" */;
+			buildPhases = (
+				A6D2DB6E4F7028711216B710 /* 📦 Check Pods Manifest.lock */,
+				8366FE3F1CE69C0800A54C52 /* Sources */,
+				8366FE401CE69C0800A54C52 /* Frameworks */,
+				8366FE411CE69C0800A54C52 /* Resources */,
+				6C788FA1E0181C5BA7D383AA /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8366FE451CE69C0800A54C52 /* PBXTargetDependency */,
+			);
+			name = GpsUITests;
+			productName = GpsUITests;
+			productReference = 8366FE431CE69C0800A54C52 /* GpsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8366FE1C1CE69C0800A54C52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = MICHO;
+				TargetAttributes = {
+					8366FE231CE69C0800A54C52 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					8366FE371CE69C0800A54C52 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8366FE231CE69C0800A54C52;
+					};
+					8366FE421CE69C0800A54C52 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8366FE231CE69C0800A54C52;
+					};
+				};
+			};
+			buildConfigurationList = 8366FE1F1CE69C0800A54C52 /* Build configuration list for PBXProject "Gps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8366FE1B1CE69C0800A54C52;
+			productRefGroup = 8366FE251CE69C0800A54C52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8366FE231CE69C0800A54C52 /* Gps */,
+				8366FE371CE69C0800A54C52 /* GpsTests */,
+				8366FE421CE69C0800A54C52 /* GpsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8366FE221CE69C0800A54C52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8366FE321CE69C0800A54C52 /* LaunchScreen.storyboard in Resources */,
+				8366FE2F1CE69C0800A54C52 /* Assets.xcassets in Resources */,
+				8366FE2D1CE69C0800A54C52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8366FE361CE69C0800A54C52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8366FE411CE69C0800A54C52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A60D0DD7D5034B25D3D8D26 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gps/Pods-Gps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		632292E05F65FC771C7AFBD9 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B285E90E30CDD8B992D7D11 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GpsTests/Pods-GpsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C788FA1E0181C5BA7D383AA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GpsUITests/Pods-GpsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71E10E04AE1C411DEA1B6519 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6D2DB6E4F7028711216B710 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A90C331BB32486BA39172119 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GpsTests/Pods-GpsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0D4BE97F313040332D8824E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gps/Pods-Gps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8366FE201CE69C0800A54C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8366FE2A1CE69C0800A54C52 /* ViewController.swift in Sources */,
+				8366FE281CE69C0800A54C52 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8366FE341CE69C0800A54C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8366FE3D1CE69C0800A54C52 /* GpsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8366FE3F1CE69C0800A54C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8366FE481CE69C0800A54C52 /* GpsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8366FE3A1CE69C0800A54C52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8366FE231CE69C0800A54C52 /* Gps */;
+			targetProxy = 8366FE391CE69C0800A54C52 /* PBXContainerItemProxy */;
+		};
+		8366FE451CE69C0800A54C52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8366FE231CE69C0800A54C52 /* Gps */;
+			targetProxy = 8366FE441CE69C0800A54C52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8366FE2B1CE69C0800A54C52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8366FE2C1CE69C0800A54C52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8366FE301CE69C0800A54C52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8366FE311CE69C0800A54C52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8366FE4A1CE69C0800A54C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8366FE4B1CE69C0800A54C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8366FE4D1CE69C0800A54C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36A5F5D630152A55560C4D0C /* Pods-Gps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UCU.Gps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8366FE4E1CE69C0800A54C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03874742D9FC73504499F33B /* Pods-Gps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UCU.Gps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8366FE501CE69C0800A54C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB8E762C110C0753A7DF4B3 /* Pods-GpsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GpsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UCU.GpsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gps.app/Gps";
+			};
+			name = Debug;
+		};
+		8366FE511CE69C0800A54C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 538B16566D4637C26A25CCC3 /* Pods-GpsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GpsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UCU.GpsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gps.app/Gps";
+			};
+			name = Release;
+		};
+		8366FE531CE69C0800A54C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 439A10D09D5E17CE1962C9FA /* Pods-GpsUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = GpsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UCU.GpsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gps;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8366FE541CE69C0800A54C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCE43A0FEE72F9D0E541AEAB /* Pods-GpsUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = GpsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UCU.GpsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gps;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8366FE1F1CE69C0800A54C52 /* Build configuration list for PBXProject "Gps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8366FE4A1CE69C0800A54C52 /* Debug */,
+				8366FE4B1CE69C0800A54C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8366FE4C1CE69C0800A54C52 /* Build configuration list for PBXNativeTarget "Gps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8366FE4D1CE69C0800A54C52 /* Debug */,
+				8366FE4E1CE69C0800A54C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8366FE4F1CE69C0800A54C52 /* Build configuration list for PBXNativeTarget "GpsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8366FE501CE69C0800A54C52 /* Debug */,
+				8366FE511CE69C0800A54C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8366FE521CE69C0800A54C52 /* Build configuration list for PBXNativeTarget "GpsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8366FE531CE69C0800A54C52 /* Debug */,
+				8366FE541CE69C0800A54C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8366FE1C1CE69C0800A54C52 /* Project object */;
+}

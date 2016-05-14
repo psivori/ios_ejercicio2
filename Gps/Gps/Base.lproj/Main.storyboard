@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Gps" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="x60-8h-z9Z">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIL-hP-2E7">
+                                <rect key="frame" x="279" y="100" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Jao-rn-DLq">
+                                <rect key="frame" x="180" y="107" width="240" height="128"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QIL-hP-2E7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1oN-lh-fbp"/>
+                            <constraint firstItem="x60-8h-z9Z" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Gmz-5P-L4G"/>
+                            <constraint firstItem="Jao-rn-DLq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="HMF-Ul-gyU"/>
+                            <constraint firstItem="Jao-rn-DLq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HoY-gD-KeH"/>
+                            <constraint firstItem="QIL-hP-2E7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="Rez-ye-QWu"/>
+                            <constraint firstItem="x60-8h-z9Z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="acd-AT-B0Q"/>
+                            <constraint firstItem="Jao-rn-DLq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mZm-ah-5eC"/>
+                            <constraint firstItem="Jao-rn-DLq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="n1U-aD-fP3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Jao-rn-DLq" secondAttribute="trailing" id="niv-U0-RLb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="aIndicator" destination="x60-8h-z9Z" id="yHj-bc-CvV"/>
+                        <outlet property="label" destination="QIL-hP-2E7" id="L1Q-35-i3n"/>
+                        <outlet property="map" destination="Jao-rn-DLq" id="f8I-9j-Avx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

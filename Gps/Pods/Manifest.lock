@@ -1,0 +1,12 @@
+PODS:
+  - SwiftLocation (0.2.0)
+
+DEPENDENCIES:
+  - SwiftLocation (~> 0.2.0)
+
+SPEC CHECKSUMS:
+  SwiftLocation: ea78ae4a822581bde7379d98c8513273723c8840
+
+PODFILE CHECKSUM: aee87a7542196cebdbcc49c199f3ed8a016be053
+
+COCOAPODS: 1.0.0
